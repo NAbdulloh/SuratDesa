@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Ganti judul ya dot</title>
+	<title>Iya Seyeenng</title>
 </head>
 <body>
 
