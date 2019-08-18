@@ -1,109 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Form Pengurusan Surat</title>
-	<link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+    <title>Form Pengurusan Surat</title>
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
 </head>
 <body>
 
-	<div class="container">
-		<form class="col align-self-center">
+    <div class="container">
+        <form class="col align-self-center">
             <fieldset>
-            	<h4>Form Pengurusan Surat</h4>
-                            <div class="form-group">
-                                <p><label for="telepon">Jenis Surat:</label><br></p>
-                                <select class="form-control" name="jenkel" required>
-                                    <option value="Laki-Laki">Pengantar SKCK</option>
-                                    <option value="Perempuan">Surat Kematian</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <p><label for="nik">Nomor Induk Keluarga:</label><br></p>
-                                <input type="number" name="nik" class="nik form-control" id="nik" style="width: 400px" required>
-                            </div>
-                            <div class="form-group">
-                                <p><label for="nama">Nama Lengkap:</label></p>
-                                <input type="text" name="nama" class="nama form-control" id="nama" required>
-                            </div>
-                            <br>
-                            <a type="button" class="btn btn-dark" href="<?= base_url('C_list/lihatListSurat');?>">Berikutnya <i class="fa fa-angle-right"></i></a>
-
-                            <!-- Modal -->
-                            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Detail Data</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h5>Hasil Input</h5>
-                                        <hr>
-                                        <div class="row">
-                                            <div class="col-sm-5">
-                                                <b>Nama Lengkap</b>
-                                            </div>
-                                            <div class="col-sm-7">
-                                                : 
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-5">
-                                                <b>No. NIK</b>
-                                            </div>
-                                            <div class="col-sm-7">
-                                                : 
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-5">
-                                                <b>Alamat</b>
-                                            </div>
-                                            <div class="col-sm-7">
-                                                : 
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-5">
-                                                <b>Tempat dan Tanggal Lahir</b>
-                                            </div>
-                                            <div class="col-sm-7">
-                                                : 
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-5">
-                                                <b>Usia</b>
-                                            </div>
-                                            <div class="col-sm-7">
-                                                : 
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-5">
-                                                <b>Pekerjaan</b>
-                                            </div>
-                                            <div class="col-sm-7">
-                                                : 
-                                            </div>
-                                        </div>
-
-                                        <hr>
-
-                                        <h5>Data Benar?</h5>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <a type="button" class="btn btn-secondary" data-dismiss="modal">Tidak</a>
-                                        <a type="button" class="btn btn-primary" data-dismiss="modal">Iya</a>                                    </div>
-                                    </div>
-                                </div>
-                            </div>
-            </fieldset>
-		</form>
-	
-	</div>
+            <table style="margin: auto;">
+                <td>
+                <center>
+                    <font color="#000000" size="5">
+                    <b>
+                        <h3>Pesanan Surat</h3>
+                    </b>
+                </font>
+                </center>
+                <center>
+                <table align="center">
+                    <tr>
+                        <td align="center"><b>ID Surat</b></td>
+                        <td align="center"><b>Jenis Surat</b></td>
+                        <td align="center"><b>NIK</b></td>
+                        <td align="center"><b>Nama Pemesan</b></td>
+                        <td align="center"><b>Status</b></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><b>1</b></td>
+                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>12345678910</b></td>
+                        <td align="center"><b>Steven Paidi</b></td>
+                        <td align="center"><b>Sudah Jadi</b></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><b>2</b></td>
+                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>12345678910</b></td>
+                        <td align="center"><b>Steven Paidu</b></td>
+                        <td align="center"><b>Sedang Diproses</b></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><b>3</b></td>
+                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>12345678910</b></td>
+                        <td align="center"><b>Steven Paido</b></td>
+                        <td align="center"><b>Sedang Diproses</b></td>
+                    </tr>
+                    </table>
+                </center>
+                </td>
+</table>
+</fieldset>
+</form>
+</div>
 
 </body>
 <script src="bootstrap.js"></script>
