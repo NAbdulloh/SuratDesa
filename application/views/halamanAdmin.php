@@ -19,6 +19,7 @@
                     <b>
                         <h3>Pesanan Surat</h3>
                     </b>
+                </font>
                 </center>
                 <br>
                 <center>
@@ -60,9 +61,12 @@
                         <td></td>
                     </tr>
                 </table>
-        </center>
-            </font>
+                </center>
+                </td>
                 </table>
+            </div>
+        </div>
+        </div>
             </fieldset>
 		</form>
 	
