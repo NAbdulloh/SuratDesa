@@ -26,7 +26,7 @@
                                 <input type="text" name="nama" class="nama form-control" id="nama" required>
                             </div>
                             <br>
-                            <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalLong">Berikutnya <i class="fa fa-angle-right"></i></button>
+                            <a type="button" class="btn btn-dark" href="<?= base_url('C_list/lihatListSurat');?>">Berikutnya <i class="fa fa-angle-right"></i></a>
 
                             <!-- Modal -->
                             <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
@@ -95,10 +95,8 @@
                                         <h5>Data Benar?</h5>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Tidak</button>
-                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Iya</button>
-                                        
-                                    </div>
+                                        <a type="button" class="btn btn-secondary" data-dismiss="modal">Tidak</a>
+                                        <a type="button" class="btn btn-primary" data-dismiss="modal">Iya</a>                                    </div>
                                     </div>
                                 </div>
                             </div>
