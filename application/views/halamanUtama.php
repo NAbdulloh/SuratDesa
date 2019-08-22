@@ -7,12 +7,14 @@
         function yesnoCheck(that) {
             if (that.value == "skck") {
                 document.getElementById("skck").style.display = "block";
-            } else if (that.value == "ktp") {
+            } 
+            else if (that.value == "ktp") {
                 document.getElementById("ktp").style.display = "block";
-            } else {
-                document.getElementById("skck").style.display = "none";
-            }
-             else {
+            } 
+            else if (that.value == "domisili") {
+                document.getElementById("ktp").style.display = "block";
+            } 
+            else {
                 document.getElementById("skck").style.display = "none";
             }
         }
@@ -21,11 +23,11 @@
 <body>
 
 	<div class="container">
-		<form class="col align-self-center">
+		<form class="col align-self-center" style="padding-top: 50px">
             <fieldset>
             	<h4>Form Pengurusan Surat</h4>
                             <div class="form-group">
-                                <p><label for="telepon">Jenis Surat:</label><br></p>
+                                <p><label for="jenSur">Jenis Surat:</label><br></p>
                                 <select class="form-control" name="jenSur" onchange="yesnoCheck(this);" required>
                                     <option value="skck">Pengantar SKCK</option>
                                     <option value="ktp">Permohonan KTP</option>
@@ -57,6 +59,37 @@
                                 <input type="text" name="nama" class="nama form-control" id="nama" required>
                             </div>
                             </div>
+
+                            <div class="container-fluid" id="domisili">
+                            <div class="form-group">
+                                <p><label for="nama">Nama Lengkap:</label></p>
+                                <input type="text" name="nama" class="nama form-control" id="nama" required>
+                            </div>
+                            <div class="form-group">
+                                <p><label for="ttl">Tempat & Tanggal Lahir:</label><br></p>
+                                <input type="text" name="ttl" class="ttl form-control" id="ttl" style="width: 400px" required>
+                            </div>
+                            <div class="form-group">
+                                <p><label for="agama">Agama:</label><br></p>
+                                <input type="text" name="agama" class="agama form-control" id="agama" style="width: 200px" required>
+                            </div>
+                            <div class="form-group">
+                                <p><label for="jenkel">Jenis Kelamin:</label><br></p>
+                                <select class="form-control" style="width: 400px" required>
+                                    <option value="l">Laki-Laki</option>
+                                    <option value="p">Perempuan</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <p><label for="pekerjaan">Pekerjaan:</label><br></p>
+                                <input type="text" name="pekerjaan" class="pekerjaan form-control" id="pekerjaan" required>
+                            </div>
+                            <div class="form-group">
+                                <p><label for="alamat">Alamat:</label><br></p>
+                                <input type="text" name="alamat" class="alamat form-control" id="alamat" required>
+                            </div>
+                            </div>
+
                             <br>
                             <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalLong">Berikutnya <i class="fa fa-angle-right"></i></button>
 
