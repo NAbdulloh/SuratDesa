@@ -16,6 +16,13 @@
             } 
             else {
                 document.getElementById("skck").style.display = "none";
+            } else {
+                document.getElementById("skck").style.display = "none";
+            }
+            if (that.value == "ktp") {
+                document.getElementById("ktp").style.display = "none";
+            } else {
+                document.getElementById("ktp").style.display = "none";
             }
         }
     </script>
@@ -29,6 +36,7 @@
                             <div class="form-group">
                                 <p><label for="jenSur">Jenis Surat:</label><br></p>
                                 <select class="form-control" name="jenSur" onchange="yesnoCheck(this);" required>
+                                	<option></option>
                                     <option value="skck">Pengantar SKCK</option>
                                     <option value="ktp">Permohonan KTP</option>
                                     <option value="kelahiran">Surat Keterangan Kelahiran</option>
@@ -39,7 +47,7 @@
                                 </select>
                             </div>
                             <div class="container-fluid" id="skck">
-                            <div class="form-group">
+                            <div class="form-group" >
                                 <p><label for="nik">Nomor Induk Keluarga:</label><br></p>
                                 <input type="number" name="nik" class="nik form-control" id="nik" style="width: 400px" required>
                             </div>
@@ -50,7 +58,7 @@
                             </div>
 
                             <div class="container-fluid" id="ktp">
-                            <div class="form-group">
+                            <div class="form-group" >
                                 <p><label for="nik">Nomor Induk Keluarga:</label><br></p>
                                 <input type="number" name="nik" class="nik form-control" id="nik" style="width: 400px" required>
                             </div>
@@ -59,6 +67,7 @@
                                 <input type="text" name="nama" class="nama form-control" id="nama" required>
                             </div>
                             </div>
+
 
                             <div class="container-fluid" id="domisili">
                             <div class="form-group">
