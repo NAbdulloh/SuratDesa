@@ -66,28 +66,13 @@
 
 
                             <div class="container-fluid" id="domisili">
+                            <div class="form-group" >
+                                <p><label for="nik">Nomor Induk Keluarga:</label><br></p>
+                                <input type="number" name="nik" class="nik form-control" id="nik" style="width: 400px" required>
+                            </div>
                             <div class="form-group">
                                 <p><label for="nama">Nama Lengkap:</label></p>
                                 <input type="text" name="nama" class="nama form-control" id="nama" required>
-                            </div>
-                            <div class="form-group">
-                                <p><label for="ttl">Tempat & Tanggal Lahir:</label><br></p>
-                                <input type="text" name="ttl" class="ttl form-control" id="ttl" style="width: 400px" required>
-                            </div>
-                            <div class="form-group">
-                                <p><label for="agama">Agama:</label><br></p>
-                                <input type="text" name="agama" class="agama form-control" id="agama" style="width: 200px" required>
-                            </div>
-                            <div class="form-group">
-                                <p><label for="jenkel">Jenis Kelamin:</label><br></p>
-                                <select class="form-control" style="width: 400px" required>
-                                    <option value="l">Laki-Laki</option>
-                                    <option value="p">Perempuan</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <p><label for="pekerjaan">Pekerjaan:</label><br></p>
-                                <input type="text" name="pekerjaan" class="pekerjaan form-control" id="pekerjaan" required>
                             </div>
                             <div class="form-group">
                                 <p><label for="alamat">Alamat:</label><br></p>
