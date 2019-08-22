@@ -7,20 +7,11 @@
         function yesnoCheck(that) {
             if (that.value == "skck") {
                 document.getElementById("skck").style.display = "block";
-            } 
-            else if (that.value == "ktp") {
-                document.getElementById("ktp").style.display = "block";
-            } 
-            else if (that.value == "domisili") {
-                document.getElementById("ktp").style.display = "block";
-            } 
-            else {
-                document.getElementById("skck").style.display = "none";
             } else {
                 document.getElementById("skck").style.display = "none";
             }
             if (that.value == "ktp") {
-                document.getElementById("ktp").style.display = "none";
+                document.getElementById("ktp").style.display = "block";
             } else {
                 document.getElementById("ktp").style.display = "none";
             }
