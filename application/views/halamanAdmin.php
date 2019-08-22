@@ -7,10 +7,8 @@
 <body>
 
 	<div class="container">
-		<form class="col align-self-center">
+		<form class="col align-self-center" style="padding-top: 50px">
             <fieldset>
-    <div class="container">
-    <div class="jumbotron" style="background-color:#000; border: solid #000; opacity:0.8; filter:alpha(opacity=40);">
         <div class="panel-body" style="background-color:#FFFFFF">
             <table style="margin: auto;">
                 <td>
