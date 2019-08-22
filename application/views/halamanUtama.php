@@ -4,10 +4,10 @@
 	<title>Form Pengurusan Surat</title>
 	<link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
 </head>
-<body>
+<body>  
 
 	<div class="container">
-		<form class="col align-self-center">
+		<form class="col align-self-center" style="padding-top: 50px">
             <fieldset>
             	<h4>Form Pengurusan Surat</h4>
                             <div class="form-group">
