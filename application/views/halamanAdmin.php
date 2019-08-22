@@ -9,7 +9,10 @@
 	<div class="container">
 		<form class="col align-self-center" style="padding-top: 50px">
             <fieldset>
-        <div class="panel-body" style="background-color:#FFFFFF">
+    <div class="container">
+    <div class="jumbotron" style="border: solid #000; background: white">
+        <div style="padding:3px;overflow:auto;width:auto;height:540px;border:1px solid grey" >
+        <!-- <div class="panel-body" style="background-color:#FFFFFF"> -->
             <table style="margin: auto;">
                 <td>
                 <center>
@@ -57,14 +60,124 @@
                         <td></td>
                         <td></td>
                     </tr>
-                </table>
-        </center>
-            </font>
-                </table>
-            </fieldset>
-		</form>
-	
-	</div>
+                    <tr>
+                        <td align="center"><b>4</b></td>
+                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>12345678910</b></td>
+                        <td align="center"><b>Steven Paido</b></td>
+                        <td align="center"><b>Sedang Diproses</b></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><b>5</b></td>
+                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>12345678910</b></td>
+                        <td align="center"><b>Steven Paido</b></td>
+                        <td align="center"><b>Sedang Diproses</b></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><b>6</b></td>
+                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>12345678910</b></td>
+                        <td align="center"><b>Steven Paido</b></td>
+                        <td align="center"><b>Sedang Diproses</b></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><b>7</b></td>
+                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>12345678910</b></td>
+                        <td align="center"><b>Steven Paido</b></td>
+                        <td align="center"><b>Sedang Diproses</b></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><b>8</b></td>
+                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>12345678910</b></td>
+                        <td align="center"><b>Steven Paido</b></td>
+                        <td align="center"><b>Sedang Diproses</b></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><b>9</b></td>
+                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>12345678910</b></td>
+                        <td align="center"><b>Steven Paido</b></td>
+                        <td align="center"><b>Sedang Diproses</b></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><b>10</b></td>
+                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>12345678910</b></td>
+                        <td align="center"><b>Steven Paido</b></td>
+                        <td align="center"><b>Sedang Diproses</b></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><b>11</b></td>
+                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>12345678910</b></td>
+                        <td align="center"><b>Steven Paido</b></td>
+                        <td align="center"><b>Sedang Diproses</b></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><b>12</b></td>
+                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>12345678910</b></td>
+                        <td align="center"><b>Steven Paido</b></td>
+                        <td align="center"><b>Sedang Diproses</b></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><b>13</b></td>
+                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>12345678910</b></td>
+                        <td align="center"><b>Steven Paido</b></td>
+                        <td align="center"><b>Sedang Diproses</b></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><b>14</b></td>
+                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>12345678910</b></td>
+                        <td align="center"><b>Steven Paido</b></td>
+                        <td align="center"><b>Sedang Diproses</b></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><b>15</b></td>
+                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>12345678910</b></td>
+                        <td align="center"><b>Steven Paido</b></td>
+                        <td align="center"><b>Sedang Diproses</b></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+            </center>
+        </font>
+</td>
+</table>
+</div>
+</div>
+</div>
+</fieldset>
+</form>
+</div>
 
 </body>
 <script src="bootstrap.js"></script>
