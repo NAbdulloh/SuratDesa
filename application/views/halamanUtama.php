@@ -3,20 +3,40 @@
 <head>
 	<title>Form Pengurusan Surat</title>
 	<link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+	<script type="text/javascript">
+        function yesnoCheck(that) {
+            if (that.value == "skck") {
+                document.getElementById("skck").style.display = "block";
+            } else if (that.value == "ktp") {
+                document.getElementById("ktp").style.display = "block";
+            } else {
+                document.getElementById("skck").style.display = "none";
+            }
+             else {
+                document.getElementById("skck").style.display = "none";
+            }
+        }
+    </script>
 </head>
-<body>  
+<body>
 
 	<div class="container">
-		<form class="col align-self-center" style="padding-top: 50px">
+		<form class="col align-self-center">
             <fieldset>
             	<h4>Form Pengurusan Surat</h4>
                             <div class="form-group">
                                 <p><label for="telepon">Jenis Surat:</label><br></p>
-                                <select class="form-control" name="jenkel" required>
-                                    <option value="Laki-Laki">Pengantar SKCK</option>
-                                    <option value="Perempuan">Surat Kematian</option>
+                                <select class="form-control" name="jenSur" onchange="yesnoCheck(this);" required>
+                                    <option value="skck">Pengantar SKCK</option>
+                                    <option value="ktp">Permohonan KTP</option>
+                                    <option value="kelahiran">Surat Keterangan Kelahiran</option>
+                                    <option value="kematian">Surat Keterangan Kematian</option>
+                                    <option value="domisili">Surat Keterangan Domisili</option>
+                                    <option value="kkBaru">Permohonan KK Baru</option>
+                                    <option value="takMampu">Surat Keterangan Tidak Mampu</option>
                                 </select>
                             </div>
+                            <div class="container-fluid" id="skck">
                             <div class="form-group">
                                 <p><label for="nik">Nomor Induk Keluarga:</label><br></p>
                                 <input type="number" name="nik" class="nik form-control" id="nik" style="width: 400px" required>
@@ -24,6 +44,18 @@
                             <div class="form-group">
                                 <p><label for="nama">Nama Lengkap:</label></p>
                                 <input type="text" name="nama" class="nama form-control" id="nama" required>
+                            </div>
+                            </div>
+
+                            <div class="container-fluid" id="ktp">
+                            <div class="form-group">
+                                <p><label for="nik">Nomor Induk Keluarga:</label><br></p>
+                                <input type="number" name="nik" class="nik form-control" id="nik" style="width: 400px" required>
+                            </div>
+                            <div class="form-group">
+                                <p><label for="nama">Nama Lengkap:</label></p>
+                                <input type="text" name="nama" class="nama form-control" id="nama" required>
+                            </div>
                             </div>
                             <br>
                             <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalLong">Berikutnya <i class="fa fa-angle-right"></i></button>
@@ -96,7 +128,7 @@
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">TIDAK</button>
-                                        <a class="btn btn-primary" href="<?= base_url('C_list');?>">YA</a>                                    </div>
+                                        <a class="btn btn-primary" href="<?= base_url('C_list/lihatListSurat');?>">YA</a>                                    </div>
                                     </div>
                                 </div>
                             </div>
