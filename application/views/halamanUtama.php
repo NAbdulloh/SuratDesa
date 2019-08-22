@@ -15,6 +15,11 @@
             } else {
                 document.getElementById("ktp").style.display = "none";
             }
+            if (that.value == "domisili") {
+                document.getElementById("domisili").style.display = "block";
+            } else {
+                document.getElementById("domisili").style.display = "none";
+            }
         }
     </script>
 </head>
