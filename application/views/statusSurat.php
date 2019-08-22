@@ -9,28 +9,23 @@
     <div class="container">
         <form class="col align-self-center">
             <fieldset>
-    <div class="container">
-    <div class="jumbotron" style="background-color:#000; border: solid #000; opacity:0.8; filter:alpha(opacity=40);">
-        <div class="panel-body" style="background-color:#FFFFFF">
             <table style="margin: auto;">
                 <td>
                 <center>
-                    <font color="#000000" size="2">
+                    <font color="#000000" size="5">
                     <b>
                         <h3>Pesanan Surat</h3>
                     </b>
+                </font>
                 </center>
-                <br>
                 <center>
-                <table class="table table-striped" align="center">
+                <table align="center">
                     <tr>
                         <td align="center"><b>ID Surat</b></td>
                         <td align="center"><b>Jenis Surat</b></td>
                         <td align="center"><b>NIK</b></td>
                         <td align="center"><b>Nama Pemesan</b></td>
                         <td align="center"><b>Status</b></td>
-                        <td></td>
-                        <td></td>
                     </tr>
                     <tr>
                         <td align="center"><b>1</b></td>
@@ -38,8 +33,6 @@
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paidi</b></td>
                         <td align="center"><b>Sudah Jadi</b></td>
-                        <td></td>
-                        <td></td>
                     </tr>
                     <tr>
                         <td align="center"><b>2</b></td>
@@ -47,8 +40,6 @@
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paidu</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
-                        <td></td>
-                        <td></td>
                     </tr>
                     <tr>
                         <td align="center"><b>3</b></td>
@@ -56,17 +47,14 @@
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
-                        <td></td>
-                        <td></td>
                     </tr>
-                </table>
-        </center>
-            </font>
-                </table>
-            </fieldset>
-        </form>
-    
-    </div>
+                    </table>
+                </center>
+                </td>
+</table>
+</fieldset>
+</form>
+</div>
 
 </body>
 <script src="bootstrap.js"></script>
