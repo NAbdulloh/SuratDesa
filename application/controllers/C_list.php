@@ -21,4 +21,7 @@ class C_list extends CI_Controller {
 	public function index() {
 		$this->load->view('statusSurat');
 	}
+	public function lihatListSurat(){
+		$this->load->view('statusSurat');
+	}
 }

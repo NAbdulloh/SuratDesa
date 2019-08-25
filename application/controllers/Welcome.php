@@ -20,7 +20,7 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('halamanUtama');
+		$this->load->view('login');
 	}
 	function lihatListSurat() {
 		$this->load->view('statusSurat');

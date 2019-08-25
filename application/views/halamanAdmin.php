@@ -30,6 +30,7 @@
                         <td align="center"><b>NIK</b></td>
                         <td align="center"><b>Nama Pemesan</b></td>
                         <td align="center"><b>Status</b></td>
+                        <td align="center"><b>Detail</b></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -39,6 +40,7 @@
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paidi</b></td>
                         <td align="center"><b>Sudah Jadi</b></td>
+                        <td><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -48,6 +50,7 @@
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paidu</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
+                        <td><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -57,6 +60,7 @@
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
+                        <td><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -66,6 +70,7 @@
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
+                        <td><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -75,6 +80,7 @@
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
+                        <td><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -84,6 +90,7 @@
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
+                        <td><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -93,6 +100,7 @@
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
+                        <td><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -102,6 +110,7 @@
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
+                        <td><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -111,6 +120,7 @@
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
+                        <td><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -120,6 +130,7 @@
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
+                        <td><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -129,6 +140,7 @@
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
+                        <td><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -138,6 +150,7 @@
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
+                        <td><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -147,6 +160,7 @@
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
+                        <td><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -156,6 +170,7 @@
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
+                        <td align="center"><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -165,6 +180,7 @@
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
+                        <td align="center"><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -178,6 +194,79 @@
 </fieldset>
 </form>
 </div>
+
+<!-- Modal -->
+                            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Detail Data</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h5>Hasil Input</h5>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-sm-5">
+                                                <b>Nama Lengkap</b>
+                                            </div>
+                                            <div class="col-sm-7">
+                                                : 
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-5">
+                                                <b>No. NIK</b>
+                                            </div>
+                                            <div class="col-sm-7">
+                                                : 
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-5">
+                                                <b>Alamat</b>
+                                            </div>
+                                            <div class="col-sm-7">
+                                                : 
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-5">
+                                                <b>Tempat dan Tanggal Lahir</b>
+                                            </div>
+                                            <div class="col-sm-7">
+                                                : 
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-5">
+                                                <b>Usia</b>
+                                            </div>
+                                            <div class="col-sm-7">
+                                                : 
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-5">
+                                                <b>Pekerjaan</b>
+                                            </div>
+                                            <div class="col-sm-7">
+                                                : 
+                                            </div>
+                                        </div>
+
+                                        <hr>
+
+                                        <h5>Data Sudah Benar?</h5>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">TIDAK</button>
+                                        <a class="btn btn-primary" href="<?= base_url('C_list/lihatListSurat');?>">YA</a>                                    </div>
+                                    </div>
+                                </div>
+                            </div>
 
 </body>
 <script src="bootstrap.js"></script>

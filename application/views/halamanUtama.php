@@ -2,7 +2,12 @@
 <html>
 <head>
 	<title>Form Pengurusan Surat</title>
-	<link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+	    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="<?= base_url('bootstrap/dist/css/bootstrap.css');?>" rel="stylesheet" />
+    <link href="<?= base_url('assets/css/font-awesome.css');?>" rel="stylesheet" />
+    <link href="<?= base_url('assets/css/custom.css');?>" rel="stylesheet" />
+    <link href="<?= base_url('assets/css/navbar.css');?>" rel="stylesheet">
 	<script type="text/javascript">
         function yesnoCheck(that) {
             if (that.value == "skck") {
@@ -45,36 +50,87 @@
                                 	<option></option>
                                     <option value="skck">Pengantar SKCK</option>
                                     <option value="ktp">Permohonan KTP</option>
-                                    <option value="kelahiran">Surat Keterangan Kelahiran</option>
-                                    <option value="kematian">Surat Keterangan Kematian</option>
                                     <option value="domisili">Surat Keterangan Domisili</option>
                                     <option value="kkBaru">Permohonan KK Baru</option>
                                     <option value="takMampu">Surat Keterangan Tidak Mampu</option>
                                 </select>
                             </div>
                             <div class="container-fluid" id="skck">
-                            <div class="form-group" >
-                                <p><label for="nik"><b>Nomor Induk Keluarga:</b></label><br></p>
-                                <input type="number" name="nik" class="nik form-control" id="nik" style="width: 400px" required>
-                            </div>
                             <div class="form-group">
                                 <p><label for="nama"><b>Nama Lengkap:</b></label></p>
                                 <input type="text" name="nama" class="nama form-control" id="nama" required>
                             </div>
+                            <div class="form-group">
+                                <p><label for="ttl"><b>Tempat & Tanggal Lahir:</b></label><br></p>
+                                <input type="text" name="ttl" class="ttl form-control" id="ttl" style="width: 400px" required>
                             </div>
+                            <div class="form-group">
+                                <p><label for="kwn&agama"><b>Kewarganegaraan & Agama:</b></label><br></p>
+                                <input type="text" name="kwn&agama" class="ttl form-control" id="ttl" style="width: 400px" required>
+                            </div>
+                            <div class="form-group">
+                                <p><label for="pekerjaan"><b>Pekerjaan:</b></label><br></p>
+                                <input type="text" name="pekerjaan" class="ttl form-control" id="ttl" style="width: 400px" required>
+                            </div>
+                                <p><label for="ttinggal"><b>Tempat Tinggal:</b></label><br></p>
+                            <div class="form-group form-inline">
+                                <p><label for="dusun">Dusun: </label></p>
+                                <input type="text" name="dusun" class="form-control" id="dusun" style="width: 150px" required>
+                                <p><label  for="rt">RT: </label></p>
+                                <input type="text" name="rt" class="ttl form-control" id="rt" style="width: 40px" required>
+                                <p><label for="rw" >RW: </label></p>
+                                <input type="text" name="rw" class="ttl form-control" id="rw" style="width: 40px" required>
+                            </div>
+                                <p><label><b>Surat Bukti Diri:</b></label><br></p>
+                            <div class="form-group" >
+                                <p><label for="dusun">No. KK: </label></p>
+                                <input type="number" name="dusun" class="form-control" id="dusun" style="width: 400px" required>
+                                <p><label  for="rt">No. KTP</label></p>
+                                <input type="number" name="rt" class="ttl form-control" id="rt" style="width: 400px" required>
+                            </div>
+                            <div class="form-group" >
+                                <p><label for="stts"><b>Status:</b></label><br></p>
+                                <input type="text" name="nik" class="nik form-control" id="nik" style="width: 400px" required>
+                            </div>
+                            <div class="form-group" >
+                                <p><label for="stts"><b>Keperluan:</b></label><br></p>
+                                <input type="text" name="nik" class="nik form-control" id="nik" style="width: 400px" required>
+                            </div>
+                            </div>
+
+                            <!-- KTP -->
 
                             <div class="container-fluid" id="ktp">
-                            <div class="form-group" >
-                                <p><label for="nik"><b>Nomor Induk Keluarga:</b></label><br></p>
-                                <input type="number" name="nik" class="nik form-control" id="nik" style="width: 400px" required>
+                            <div class="form-group">
+                                <p><label for="nama"><b>PERMOHONAN KTP:</b></label></p>
+		                            <label class="checkbox-inline"><input type="checkbox" value="">A. Baru</label>
+									<label class="checkbox-inline"><input type="checkbox" value="">B. Perpanjangan</label>
+									<label class="checkbox-inline"><input type="checkbox" value="">C. Penggantian</label>
                             </div>
                             <div class="form-group">
                                 <p><label for="nama"><b>Nama Lengkap:</b></label></p>
                                 <input type="text" name="nama" class="nama form-control" id="nama" required>
                             </div>
+                            <div class="form-group" >
+                                <p><label for="nik"><b>Nomor KK:</b></label><br></p>
+                                <input type="number" name="kk" class="nik form-control" id="kk" style="width: 400px" required>
                             </div>
 
+                            <div class="form-group" >
+                                <p><label for="nik"><b>Nomor NIK:</b></label><br></p>
+                                <input type="number" name="nik" class="nik form-control" id="nik" style="width: 400px" required>
+                            </div>
+                            <p><label for="ttinggal"><b>Alamat</b></label><br></p>
+                            <div class="form-group form-inline">
+                            	<input type="text" name="alamat" class="form-control" id="alamat" style="width: 200px" required>
+                                <p><label  for="rt">RT: </label></p>
+                                <input type="text" name="rt" class="ttl form-control" id="rt" style="width: 40px" required>
+                                <p><label for="rw" >RW: </label></p>
+                                <input type="text" name="rw" class="ttl form-control" id="rw" style="width: 40px" required>
+                            </div>
+                            </div>
 
+                            <!-- KETERANGAN DOMISILI -->
                             <div class="container-fluid" id="domisili">
                             <div class="form-group">
                                 <p><label for="nama"><b>Nama Lengkap:</b></label></p>
