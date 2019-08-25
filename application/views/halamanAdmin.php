@@ -39,8 +39,11 @@
                         <td align="center"><b>SKCK</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paidi</b></td>
-                        <td align="center"><b>Sudah Jadi</b></td>
-                        <td><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
+                        <td align="center"><select class="form-control" required>
+                                                <option>Sedang Diproses</option>
+                                                <option>Sudah Jadi</option>
+                                            </select></td>
+                        <td align="center"><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -49,8 +52,11 @@
                         <td align="center"><b>SKCK</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paidu</b></td>
-                        <td align="center"><b>Sedang Diproses</b></td>
-                        <td><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
+                        <td align="center"><select class="form-control" required>
+                                                <option>Sedang Diproses</option>
+                                                <option>Sudah Jadi</option>
+                                            </select></td>
+                        <td align="center"><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -59,8 +65,11 @@
                         <td align="center"><b>SKCK</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
-                        <td align="center"><b>Sedang Diproses</b></td>
-                        <td><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
+                        <td align="center"><select class="form-control" required>
+                                                <option>Sedang Diproses</option>
+                                                <option>Sudah Jadi</option>
+                                            </select></td>
+                        <td align="center"><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -69,8 +78,11 @@
                         <td align="center"><b>SKCK</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
-                        <td align="center"><b>Sedang Diproses</b></td>
-                        <td><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
+                        <td align="center"><select class="form-control" required>
+                                                <option>Sedang Diproses</option>
+                                                <option>Sudah Jadi</option>
+                                            </select></td>
+                        <td align="center"><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -79,8 +91,11 @@
                         <td align="center"><b>SKCK</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
-                        <td align="center"><b>Sedang Diproses</b></td>
-                        <td><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
+                        <td align="center"><select class="form-control" required>
+                                                <option>Sedang Diproses</option>
+                                                <option>Sudah Jadi</option>
+                                            </select></td>
+                        <td align="center"><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -89,8 +104,11 @@
                         <td align="center"><b>SKCK</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
-                        <td align="center"><b>Sedang Diproses</b></td>
-                        <td><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
+                        <td align="center"><select class="form-control" required>
+                                                <option>Sedang Diproses</option>
+                                                <option>Sudah Jadi</option>
+                                            </select></td>
+                        <td align="center"><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -99,8 +117,11 @@
                         <td align="center"><b>SKCK</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
-                        <td align="center"><b>Sedang Diproses</b></td>
-                        <td><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
+                        <td align="center"><select class="form-control" required>
+                                                <option>Sedang Diproses</option>
+                                                <option>Sudah Jadi</option>
+                                            </select></td>
+                        <td align="center"><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -109,8 +130,11 @@
                         <td align="center"><b>SKCK</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
-                        <td align="center"><b>Sedang Diproses</b></td>
-                        <td><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
+                        <td align="center"><select class="form-control" required>
+                                                <option>Sedang Diproses</option>
+                                                <option>Sudah Jadi</option>
+                                            </select></td>
+                        <td align="center"><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -119,8 +143,11 @@
                         <td align="center"><b>SKCK</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
-                        <td align="center"><b>Sedang Diproses</b></td>
-                        <td><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
+                        <td align="center"><select class="form-control" required>
+                                                <option>Sedang Diproses</option>
+                                                <option>Sudah Jadi</option>
+                                            </select></td>
+                        <td align="center"><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -129,8 +156,11 @@
                         <td align="center"><b>SKCK</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
-                        <td align="center"><b>Sedang Diproses</b></td>
-                        <td><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
+                        <td align="center"><select class="form-control" required>
+                                                <option>Sedang Diproses</option>
+                                                <option>Sudah Jadi</option>
+                                            </select></td>
+                        <td align="center"><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -139,8 +169,11 @@
                         <td align="center"><b>SKCK</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
-                        <td align="center"><b>Sedang Diproses</b></td>
-                        <td><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
+                        <td align="center"><select class="form-control" required>
+                                                <option>Sedang Diproses</option>
+                                                <option>Sudah Jadi</option>
+                                            </select></td>
+                        <td align="center"><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -149,8 +182,11 @@
                         <td align="center"><b>SKCK</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
-                        <td align="center"><b>Sedang Diproses</b></td>
-                        <td><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
+                        <td align="center"><select class="form-control" required>
+                                                <option>Sedang Diproses</option>
+                                                <option>Sudah Jadi</option>
+                                            </select></td>
+                        <td align="center"><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -159,8 +195,11 @@
                         <td align="center"><b>SKCK</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
-                        <td align="center"><b>Sedang Diproses</b></td>
-                        <td><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
+                        <td align="center"><select class="form-control" required>
+                                                <option>Sedang Diproses</option>
+                                                <option>Sudah Jadi</option>
+                                            </select></td>
+                        <td align="center"><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -169,7 +208,10 @@
                         <td align="center"><b>SKCK</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
-                        <td align="center"><b>Sedang Diproses</b></td>
+                        <td align="center"><select class="form-control" required>
+                                                <option>Sedang Diproses</option>
+                                                <option>Sudah Jadi</option>
+                                            </select></td>
                         <td align="center"><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
@@ -179,7 +221,10 @@
                         <td align="center"><b>SKCK</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
-                        <td align="center"><b>Sedang Diproses</b></td>
+                        <td align="center"><select class="form-control" required>
+                                                <option>Sedang Diproses</option>
+                                                <option>Sudah Jadi</option>
+                                            </select></td>
                         <td align="center"><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"></a></td>
                         <td></td>
                         <td></td>
@@ -258,12 +303,6 @@
                                         </div>
 
                                         <hr>
-
-                                        <h5>Data Sudah Benar?</h5>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">TIDAK</button>
-                                        <a class="btn btn-primary" href="<?= base_url('C_list/lihatListSurat');?>">YA</a>                                    </div>
                                     </div>
                                 </div>
                             </div>
