@@ -58,7 +58,7 @@
                     </tr>
                     <tr>
                         <td align="center"><b>3</b></td>
-                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>Pengantar SKCK</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
@@ -85,7 +85,7 @@
                     </tr>
                     <tr>
                         <td align="center"><b>6</b></td>
-                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>Pengantar SKCK</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
@@ -94,7 +94,7 @@
                     </tr>
                     <tr>
                         <td align="center"><b>7</b></td>
-                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>Surat Keterangan Tidak Mampu</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
@@ -103,7 +103,7 @@
                     </tr>
                     <tr>
                         <td align="center"><b>8</b></td>
-                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>Pengantar SKCK</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
@@ -112,7 +112,7 @@
                     </tr>
                     <tr>
                         <td align="center"><b>9</b></td>
-                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>Pengantar SKCK</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
@@ -121,7 +121,7 @@
                     </tr>
                     <tr>
                         <td align="center"><b>10</b></td>
-                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>Pengantar SKCK</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
@@ -130,7 +130,7 @@
                     </tr>
                     <tr>
                         <td align="center"><b>11</b></td>
-                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>Pengantar SKCK</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
@@ -139,7 +139,7 @@
                     </tr>
                     <tr>
                         <td align="center"><b>12</b></td>
-                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>Pengantar SKCK</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
@@ -148,7 +148,7 @@
                     </tr>
                     <tr>
                         <td align="center"><b>13</b></td>
-                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>Pengantar SKCK</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
@@ -157,7 +157,7 @@
                     </tr>
                     <tr>
                         <td align="center"><b>14</b></td>
-                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>Pengantar SKCK</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
@@ -166,7 +166,7 @@
                     </tr>
                     <tr>
                         <td align="center"><b>15</b></td>
-                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>Pengantar SKCK</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
