@@ -40,7 +40,7 @@
                     </tr>
                     <tr>
                         <td align="center"><b>1</b></td>
-                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>Pengantar SKCK</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paidi</b></td>
                         <td align="center"><b>Sudah Jadi</b></td>
@@ -49,7 +49,7 @@
                     </tr>
                     <tr>
                         <td align="center"><b>2</b></td>
-                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>Permohonan KTP</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paidu</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
@@ -67,7 +67,7 @@
                     </tr>
                     <tr>
                         <td align="center"><b>4</b></td>
-                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>Surat Keterangan Domisili</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
@@ -76,7 +76,7 @@
                     </tr>
                     <tr>
                         <td align="center"><b>5</b></td>
-                        <td align="center"><b>SKCK</b></td>
+                        <td align="center"><b>Permohonan KK Baru</b></td>
                         <td align="center"><b>12345678910</b></td>
                         <td align="center"><b>Steven Paido</b></td>
                         <td align="center"><b>Sedang Diproses</b></td>
