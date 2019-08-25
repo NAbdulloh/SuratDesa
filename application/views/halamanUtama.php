@@ -55,7 +55,7 @@
                                     <option value="takMampu">Surat Keterangan Tidak Mampu</option>
                                 </select>
                             </div>
-                            <div class="container-fluid" id="skck">
+                            <div class="container-fluid" id="skck" style="display: none;">
                             <div class="form-group">
                                 <p><label for="nama"><b>Nama Lengkap:</b></label></p>
                                 <input type="text" name="nama" class="nama form-control" id="nama" required>
@@ -100,7 +100,7 @@
 
                             <!-- KTP -->
 
-                            <div class="container-fluid" id="ktp">
+                            <div class="container-fluid" id="ktp" style="display: none;">
                             <div class="form-group">
                                 <p><label for="nama"><b>PERMOHONAN KTP:</b></label></p>
 		                            <label class="checkbox-inline"><input type="checkbox" value="">A. Baru</label>
@@ -131,7 +131,7 @@
                             </div>
 
                             <!-- KETERANGAN DOMISILI -->
-                            <div class="container-fluid" id="domisili">
+                            <div class="container-fluid" id="domisili" style="display: none;">
                             <div class="form-group">
                                 <p><label for="nama"><b>Nama Lengkap:</b></label></p>
                                 <input type="text" name="nama" class="nama form-control" id="nama" required>
@@ -161,7 +161,7 @@
                             </div>
                             </div>
 
-                            <div class="container-fluid" id="kkBaru">
+                            <div class="container-fluid" id="kkBaru" style="display: none;">
                             <div class="form-group" >
                                 <p><label for="kec"><b>Kecamatan:</b></label><br></p>
                                 <input type="text" name="kec" class="kec form-control" id="kec" style="width: 400px" required>
@@ -288,7 +288,7 @@
                             </div>
                             </div>
 
-                            <div class="container-fluid" id="takMampu">
+                            <div class="container-fluid" id="takMampu" style="display: none;">
                             <div class="form-group">
                                 <p><label for="nama"><b>Nama Lengkap:</b></label></p>
                                 <input type="text" name="nama" class="nama form-control" id="nama" required>
